@@ -1,0 +1,5 @@
+numlockx off
+
+echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode
+
+echo "Keychon keyboard is set up! Numlock mode is off and Fn keys must be working!"
